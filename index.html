@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Fake News Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📰 AI Fake News Detector</h1>
+    <p>Think before you believe. Verify before you share.</p>
+  </header>
+
+  <main class="card">
+    <h2>Verify a News Article</h2>
+
+    <label for="news">Paste your news below:</label>
+
+    <textarea id="news"
+      placeholder="Enter a news headline or article..."></textarea>
+
+    <button id="checkButton">Analyze News</button>
+
+    <div id="result" role="status" aria-live="polite"></div>
+
+    <p class="note">
+      AI analysis can make mistakes. Always verify important claims
+      using reliable independent sources.
+    </p>
+  </main>
+
+  <footer>AI Fake News Detection Project</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
